@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Fitcamp Sports BR",
+    "slug": "fitcamp-sports-br",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/584c71de-a15a-45ca-a66e-08566cd988aa"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.grupoconsuti.fitcampsportsbr",
+      "permissions": []
+    },
+    "ios": {
+      "buildNumber": "1",
+      "bundleIdentifier": "com.grupoconsuti.fitcampsportsbr",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to collect the user's profile photo, which can be fictitious.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone if the user wants to record a video"
+      }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "584c71de-a15a-45ca-a66e-08566cd988aa"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
